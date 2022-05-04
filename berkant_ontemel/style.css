@@ -18,6 +18,28 @@
     margin-top: -8px;
 }
 .kayitolForm{
-position: relative;
+    position: relative;
 
+}
+.sectionIndex{
+    background-color: #777;
+    margin-top: -8px;
+           
+}
+.carousel-inner{
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.sectionSlider{
+    background-color: #777;
+}
+.footerA{
+    color: white;
+    text-decoration: none;
+
+}
+.footerLi{
+    list-style-type: none;
+    
 }
