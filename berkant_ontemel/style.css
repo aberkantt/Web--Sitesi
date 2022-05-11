@@ -4,7 +4,7 @@
 .girisYapSection{
     background-image: url(../BerkantOntemel/back.jpeg);
     width: 100%;
-    min-height: 650px;
+    min-height: 580px;
     margin-top: -8px;
     background-size: cover;
     background-position: center;
@@ -22,9 +22,14 @@
 
 }
 .sectionIndex{
-    background-color: #777;
-    margin-top: -8px;
-           
+    background-color: rgb(231, 230, 230);
+    margin-top: -8px;          
+}
+.resim{
+   width: 100%; 
+   height: 300px;
+   background-size: cover;
+   background-position:center center ;
 }
 .carousel-inner{
     background-size: cover;
@@ -32,7 +37,7 @@
     height: 450px;
 }
 .sectionSlider{
-    background-color: #777;
+    background-color: rgb(231, 230, 230);
 }
 .footerA{
     color: white;
