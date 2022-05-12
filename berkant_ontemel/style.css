@@ -32,9 +32,7 @@
    background-position:center center ;
 }
 .carousel-inner{
-    background-size: cover;
-    background-position: center;
-    height: 450px;
+    height: 300px;
 }
 .sectionSlider{
     background-color: rgb(231, 230, 230);
@@ -45,6 +43,23 @@
 
 }
 .footerLi{
-    list-style-type: none;
-    
+    list-style-type: none;   
+}
+.hakkimizdaResim{
+    width: 400px;
+    height: 400px;
+}
+.sectionHakkimizda{
+    background-color: rgb(231, 230, 230);
+    margin-top: -8px;
+    padding: 15px;
+}
+.sehrimResim{
+    width: 400px;
+    height: 400px; 
+}
+.sectionSehrim{
+    background-color: rgb(231, 230, 230);
+    margin-top: -8px;
+    padding: 15px; 
 }
