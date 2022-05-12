@@ -63,3 +63,74 @@
     margin-top: -8px;
     padding: 15px; 
 }
+
+
+
+body{
+    margin:0;
+    padding:0;
+    background :url(../BerkantOntemel/back.jpeg);
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    background:#cea314c2;
+    padding: 80px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(177, 13, 161);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.box img{   
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 55px;    
+    letter-spacing: 4px;    
+    font-weight: initial;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 1000;
+    letter-spacing: 3px; 
+}
+.box p{
+    font-weight: bold;
+    text-align: justify;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+.box li a{
+    color: aliceblue;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: blueviolet ;
+}
+.avatar{
+vertical-align: top;
+
+    width: 125px;
+    height: 125px;
+    /*border-radius: 50%;*/
+}
