@@ -37,28 +37,28 @@
 </div>
 <section class="kayitolsection">
     <div class="container w-25 mx-auto">
-        <form class="form kayitolForm">
+        <form action="Kayit.php" method="post" class="form kayitolForm">
             <div class="w-100 text-center bg-danger rounded-2 p-2 text-white mb-3">
                 <span>Aramıza Hoş Geldiniz..</span>
             </div>
             <div class="w-100 mb-2">
                 <label class="form-label text-white">Adınız</label>
-                <input type="text" class="form-control border border-info" placeholder="Adınızı Girin"required>
+                <input type="text" name="adi" class="form-control border border-info" placeholder="Adınızı Girin"required>
             </div>
             <div class="w-100 mb-2">
                 <label class="form-label text-white">Soyadınız</label>
-                <input type="text" class="form-control border border-info" placeholder="Soyadınızı Girin"required>
+                <input type="text" name="soyadi" class="form-control border border-info" placeholder="Soyadınızı Girin"required>
             </div>
             <div class="w-100 mb-2">
                 <label class="form-label text-white">Kullanıcı Adı</label>
                 <div class="input-group">
-                    <span class="input-group-text border border-info">@</span>
-                    <input type="text" class="form-control border border-info" placeholder="Kullanıcı Adınızı Oluşturun"required>
+                    <span class="input-group-text border border-info">☺</span>
+                    <input type="text" name="kullanici_adi" class="form-control border border-info" placeholder="Kullanıcı Adınızı Oluşturun"required>
                 </div>
             </div>
             <div class="w-100 mb-2">
                 <label class="form-label text-white">Parola</label>
-                <input type="password" class="form-control border border-info" placeholder="Parolanızı Oluşturun"required>
+                <input type="password" name="sifre" class="form-control border border-info" placeholder="Parolanızı Oluşturun"required>
             </div>
             <div class="w-100 mb-2">
                 <label class="form-label text-white">Parolanızı Tekrarlayın</label>
